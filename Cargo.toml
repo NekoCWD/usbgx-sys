@@ -1,0 +1,15 @@
+[package]
+name = "usbgx-sys"
+version = "0.1.0"
+edition = "2021"
+description = "Naive bindings to libusbgx."
+license = "GPL-2.0"
+authors = ["NekoCWD"]
+homepage = "https://github.com/NekoCWD/libusbgx-sys"
+keywords = ["usb", "embedded", "linux", "libusbgx", "libusbg"]
+categories = ["api-bindings", "embedded", "hardware-support", "os::unix-apis"]
+
+[build-dependencies]
+bindgen = "0.69.4"
+
+[dependencies]
